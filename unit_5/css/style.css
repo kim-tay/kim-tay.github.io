@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Neuton:200,400,400i,700');
+
+
+body {
+	background-color: #fff;
+	font-family: 'Neuton', serif;
+	font-size: 18px; 
+	line-height: 1.2;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: #E99534;
+	font-size: 48px; 
+	font-family: 'Neuton', serif; 
+	font-style: normal;
+	font-weight: lighter; 
+	text-align: center;
+	margin: 30px;
+}
+
+h2 {
+	color: #505030; 
+	font-family: 'Neuton', serif;
+	font-size: 32px
+	text-align: center; 
+	font-style: italic;
+	font-weight: lighter;
+}
+
+#one {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 520px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+blockquote {
+	text-align: justify;
+	font-family: 'Neuton', serif;
+	line-height: 140%;
+	letter-spacing: .4px;
+	margin-top: 50px;
+	margin-left: 240px;
+	margin-right: 240px;
+	margin-bottom: 30px;
+}
+
+cite {
+	text-align: justify;
+	font-family: 'Neuton', serif;
+	line-height: 140%;
+	letter-spacing: .5px;
+	margin-top: 50px;
+	margin-left: 240px;
+	margin-right: 240px;
+	margin-bottom: 30px;
+
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+	color: inherit;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer {
+	font-size: 18px;
+	font-family: 'Neuton', serif;
+	text-align: center;
+	letter-spacing: .3px;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+main {
+	padding: 20px;
+}
+
