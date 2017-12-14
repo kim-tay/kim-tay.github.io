@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-
+@import url('https://fonts.googleapis.com/css?family=Neuton:200,400,400i,700');
 *{
 	padding: 0;
 	margin: 0;
@@ -8,72 +7,70 @@
 
 body {
 	background-color: #fff;
-	font-size: 16px;
+	font-family: 'Neuton', serif;
+	font-size: 18px;
 	color: #222638; 
 	line-height: 1.2;
 }
 
 h1 {
 	color: #E99534;
-	font-size: 3em; 
-	font-family: 'Montserrat', sans-serif; 
-	font-weight: "italic"; 
+	font-size: 48px; 
+	font-family: 'Neuton', serif; 
+	font-style: normal;
+	font-weight: lighter; 
 	text-align: center;
 	margin: 30px;
 }
-h3 {
+h2 {
 	color: #505030; 
-	font-size: 140%;
+	font-family: 'Neuton', serif;
+	font-size: 32px;
 	text-align: center; 
 	font-style: italic;
+	font-weight: lighter;
 }
 img {
 	display: block;
 	margin: auto;
-	width: 60%;
-	margin-top: 30px;
+	width: 520px;
+	margin-top: 50px;
 	margin-bottom: 30px;
 }	
 p {
 	text-align: justify;
-	margin-top: 30px;
+	font-family: 'Neuton', serif;
+	line-height: 150%;
+	margin-top: 50px;
 	margin-left: 240px;
 	margin-right: 240px;
 	margin-bottom: 30px;
 }
-div {
-	text-align: center;
-}
+
 ul {
-	font-size: 100%;
-	text-align: left;
-	margin-top: 40px;
-	margin-left: 260px;
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
+
 a {
 	text-align: center;
 	font-size: 16px;
 	color: inherit;
+	margin-top: 20px;
 	text-decoration: none;
-	font-weight: normal;
+	font-weight: bold;
 }
-ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 10;
-	overflow: hidden;
-}
-li{
-	float: center;
-}
-li a{
-	display: block; 
-	padding: 8px;
-	background-color: #E99534;
-}
+
 footer {
-	text-align: justify;
+	font-size: 18px;
+	font-family: 'Neuton', serif;
+	text-align: left;
 	margin-bottom: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+
 }
 main {
 	padding: 20px;
