@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Neuton:200,400,400i,700');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff;
+	font-family: 'Neuton', serif;
+	font-size: 18px; 
+	line-height: 1.2;
+}
+
+header {
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: #62A243;
+	font-size: 48px; 
+	font-family: 'Neuton', serif; 
+	font-style: normal;
+	font-weight: lighter; 
+	text-align: center;
+	margin: 30px;
+}
+
+h2 {
+	color: #505030; 
+	font-family: 'Neuton', serif;
+	font-size: 32px
+	text-align: center; 
+	font-style: italic;
+	font-weight: lighter;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 520px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+blockquote {
+	text-align: justify;
+	font-family: 'Neuton', serif;
+	line-height: 140%;
+	letter-spacing: .4px;
+	margin-top: 50px;
+	margin-left: 240px;
+	margin-right: 240px;
+	margin-bottom: 30px;
+}
+
+cite {
+	text-align: justify;
+	font-family: 'Neuton', serif;
+	line-height: 140%;
+	letter-spacing: .5px;
+	margin-top: 50px;
+	margin-left: 240px;
+	margin-right: 240px;
+	margin-bottom: 60px;
+
+}
+
+div {
+	height: 60px;
+}
+
+nav {
+  	background-color: #fff;
+  	font-family: Neuton, serif;
+  	width: 100%;
+  	max-width: 800px;
+  	margin: 0 auto;
+}
+
+.ss-navbutton {
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	display: block;
+  	float: left;
+  	width: 25%;
+}
+
+.ss-navbutton div {
+	background-color: #62A243;
+	width: 100%;
+	max-width: 140px;
+	margin:0 auto;
+	padding: 20px;
+}
+
+.ss-navbutton:hover {
+  	background-color: #fff;
+  	color: #505030;
+}
+
+footer {
+	background-color: #fff
+	font-size: 18px;
+	font-family: 'Neuton', serif;
+	text-align: center;
+	letter-spacing: .3px;
+	width: 100%;
+	max-width: 800px;
+	margin: 30px auto;
+}
+
+#socbuttons {
+	margin: auto;
+	vertical-align: middle;
+}
+
+.ss-socmediabutton {
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	display: block;
+  	float: left;
+  	width: 30%;
+  	margin-top: 30px;
+ }
+
+.ss-socmediabutton div {
+	background-color: #62A243;
+	width: 100%;
+	max-width: 100px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.ss-socmediabutton:hover {
+  	background-color: #fff;
+  	color: #505030;
+}
+
+main {
+	padding: 20px;
+}
+
