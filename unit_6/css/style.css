@@ -18,7 +18,7 @@ header {
 }
 
 h1 {
-	color: #E99534;
+	color: #62A243;
 	font-size: 48px; 
 	font-family: 'Neuton', serif; 
 	font-style: normal;
@@ -98,7 +98,7 @@ nav {
 }
 
 .ss-navbutton div {
-	background-color: #E99534;
+	background-color: #62A243;
 	width: 100%;
 	max-width: 140px;
 	margin:0 auto;
@@ -137,7 +137,7 @@ footer {
  }
 
 .ss-socmediabutton div {
-	background-color: #E99534;
+	background-color: #62A243;
 	width: 100%;
 	max-width: 100px;
 	margin: 0 auto;
