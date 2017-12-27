@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Neuton:200,400,400i,700');
-
+@import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script);
 *{
 	margin: 0;
 	padding: 0;
@@ -82,7 +82,7 @@ div {
 
 nav {
   	background-color: #fff;
-  	font-family: 'Bad Script', cursive;
+  	font-family: 'Petit Formal Script', cursive;
   	font-size: 20px;
   	width: 100%;
   	max-width: 800px;
