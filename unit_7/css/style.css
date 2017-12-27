@@ -19,7 +19,7 @@ header {
 
 h1 {
 	color: #62A243;
-	font-size: 48px; 
+	font-size: 52px; 
 	font-family: 'Neuton', serif; 
 	font-style: normal;
 	font-weight: lighter; 
@@ -30,9 +30,9 @@ h1 {
 h2 {
 	color: #505030; 
 	font-family: 'Neuton', serif;
-	font-size: 32px
+	font-size: 34px;
 	text-align: center; 
-	font-style: italic;
+	font-style: normal;
 	font-weight: lighter;
 }
 
@@ -82,7 +82,8 @@ div {
 
 nav {
   	background-color: #fff;
-  	font-family: Neuton, serif;
+  	font-family: 'Bad Script', cursive;
+  	font-size: 20px;
   	width: 100%;
   	max-width: 800px;
   	margin: 0 auto;
@@ -121,32 +122,40 @@ footer {
 	margin: 30px auto;
 }
 
-#socbuttons {
-	margin: auto;
+#fa {
+	margin: 40px;
 	vertical-align: middle;
 }
 
-.ss-socmediabutton {
-  	color: white;
-  	text-align: center;
-  	text-decoration: none;
-  	display: block;
-  	float: left;
-  	width: 30%;
-  	margin-top: 30px;
- }
-
-.ss-socmediabutton div {
-	background-color: #62A243;
-	width: 100%;
-	max-width: 100px;
-	margin: 0 auto;
+.fa {
 	padding: 20px;
+	font-size: 30px;
+	width: 60px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
 }
 
-.ss-socmediabutton:hover {
-  	background-color: #fff;
-  	color: #505030;
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+	margin: 0 20px;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+	margin: 0 20px;
+}
+
+.fa-instagram {
+	background: #505030;
+	color: white;
+	margin: 0 20px;
+}
+
+.fa:hover {
+  	opacity: 0.7;
 }
 
 main {
