@@ -19,7 +19,7 @@ header {
 
 h1 {
 	color: #62A243;
-	font-size: 52px; 
+	font-size: 3.25em; 
 	font-family: 'Neuton', serif; 
 	font-style: normal;
 	font-weight: lighter; 
@@ -30,7 +30,7 @@ h1 {
 h2 {
 	color: #505030; 
 	font-family: 'Neuton', serif;
-	font-size: 34px;
+	font-size: 2em;
 	text-align: center; 
 	font-style: normal;
 	font-weight: lighter;
@@ -39,7 +39,7 @@ h2 {
 img {
 	display: block;
 	margin: auto;
-	width: 45%;
+	width: 50%;
 	margin-top: 4%;
 	margin-bottom: 2%;
 }
@@ -83,14 +83,13 @@ div {
 nav {
   	background-color: #fff;
   	font-family: 'Petit Formal Script', cursive;
-  	font-size: 20px;
-  	width: 100%;
-  	max-width: 80%;
+  	font-size: 1.2em;
+  	max-width: 70%;
   	margin: 6% auto;
 }
 
 .ss-navbutton {
-  	color: white;
+  	color: #505030;
   	text-align: center;
   	text-decoration: none;
   	display: block;
@@ -99,21 +98,20 @@ nav {
 }
 
 .ss-navbutton div {
-	background-color: #62A243;
-	width: 100%;
-	max-width: 140px;
+	background-color: #fff;
+	max-width: 75%;
 	margin:0 auto;
-	padding: 4%;
+	padding: 2%;
 }
 
 .ss-navbutton:hover {
   	background-color: #fff;
-  	color: #505030;
+  	color: #62A243;
 }
 
 footer {
 	background-color: #fff
-	font-size: 18px;
+	font-size: 1em;
 	font-family: 'Neuton', serif;
 	text-align: center;
 	letter-spacing: .3px;
@@ -123,13 +121,13 @@ footer {
 }
 
 #fa {
-	margin: 40px;
+	margin: 3%;
 	vertical-align: middle;
 }
 
 .fa {
 	padding: 2%;
-	font-size: 30px;
+	font-size: 3%;
 	width: 6%;
 	text-align: center;
 	text-decoration: none;
@@ -162,4 +160,26 @@ main {
 	padding: 2%;
 }
 
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+	.ss-navbutton {
+		float: none;
+		width: auto;
+	}
+	.fa {
+		width: 7%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	body {
+		font-size: 13px;
+	}
+	.fa {
+		width: 8%;
+	}
+
+}
 
