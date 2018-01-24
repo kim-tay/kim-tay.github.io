@@ -16,39 +16,6 @@ header {
 	padding: 2%;
 	text-align: center;
 }
- .search-container {
-  width: 100%;
-  display: block;
-}
-
-input#search-bar {
-  width: 200px;
-  height: 35px;
-  padding: 0 10px;
-  font-size: 0.75em;
-  text-align: center;
-  border: 1px solid #D0CFCE;
-  outline: none;
-  float: right;
-}
-input#search-bar:focus {
-  border: 1px solid #008ABF;
-  transition: 0.35s ease;
-  color: #008ABF;
-}
-input#search-bar:focus::-webkit-input-placeholder {
-  transition: opacity 0.45s ease;
-  opacity: 0;
-}
-input#search-bar:focus::-moz-placeholder {
-  transition: opacity 0.45s ease;
-  opacity: 0;
-}
-input#search-bar:focus:-ms-placeholder {
-  transition: opacity 0.45s ease;
-  opacity: 0;
-}
-
 
 h1 {
 	color: #1C3067;
@@ -61,12 +28,26 @@ h1 {
 }
 
 h2 {
-	color: #1C3067; 
 	font-family: 'Neuton', serif;
 	font-size: 2.2em;
 	text-align: center; 
 	font-style: normal;
 	font-weight: lighter;
+}
+
+#ss-logotype {
+  	color: #1C3067;
+  	text-align: center;
+  	text-decoration: none;
+  	display: block;
+}
+
+#menubutton {
+	display: none;
+}
+
+#mobilemenunav {
+	display: none;
 }
 
 h3 {
@@ -84,11 +65,10 @@ h4 {
 	font-style: normal;
 	font-weight: lighter;
 }
-#menubutton {
-	display: none;
-}
 
-#mobilemenunav {
+
+
+.fa fa-bars {
 	display: none;
 }
 
@@ -126,7 +106,7 @@ blockquote {
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-bottom: 2%;
-	border-bottom: 
+	border-bottom: 2%;
 }
 
 .linedivision {
@@ -175,8 +155,7 @@ ul {
 nav {
   	font-family: 'Petit Formal Script', cursive;
   	font-size: 1.2em;
-  	width: 100%;
-  	max-width: 900px;
+  	width: 70%;
   	margin: 6% auto;
 }
 
@@ -261,6 +240,9 @@ div {
 main {
 	padding: 2%;
 }
+
+
+	
 
 @media only screen and (max-width: 768px) {
 	body {
