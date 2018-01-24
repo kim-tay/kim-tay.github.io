@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Neuton:200,400,400i,700');
+@import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff;
+	font-family: 'Neuton', serif;
+	font-size: 18px; 
+	line-height: 1.2;
+}
+
+header {
+	padding: 2%;
+	text-align: center;
+}
+ .search-container {
+  width: 100%;
+  display: block;
+}
+
+input#search-bar {
+  width: 200px;
+  height: 35px;
+  padding: 0 10px;
+  font-size: 0.75em;
+  text-align: center;
+  border: 1px solid #D0CFCE;
+  outline: none;
+  float: right;
+}
+input#search-bar:focus {
+  border: 1px solid #008ABF;
+  transition: 0.35s ease;
+  color: #008ABF;
+}
+input#search-bar:focus::-webkit-input-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+input#search-bar:focus::-moz-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+input#search-bar:focus:-ms-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+
+
+h1 {
+	color: #1C3067;
+	font-size: 3.25em; 
+	font-family: 'Neuton', serif; 
+	font-style: normal;
+	font-weight: lighter; 
+	text-align: center;
+	margin: 3%;
+}
+
+h2 {
+	color: #1C3067; 
+	font-family: 'Neuton', serif;
+	font-size: 2.2em;
+	text-align: center; 
+	font-style: normal;
+	font-weight: lighter;
+}
+
+h3 {
+	color: #6D6E71;
+	font-family: 'Petit Formal Script', cursive;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+h4 {
+	color: #1C3067; 
+	font-family: 'Neuton', serif;
+	font-size: 1.2em;
+	text-align: center; 
+	font-style: normal;
+	font-weight: lighter;
+}
+#menubutton {
+	display: none;
+}
+
+#mobilemenunav {
+	display: none;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 50%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+#profilepic {
+	display: block;
+	margin: auto;
+	width: 45%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+blockquote {
+	text-align: justify;
+	font-family: 'Neuton', serif;
+	line-height: 140%;
+	letter-spacing: .4px;
+	margin-top: 3%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 2%;
+	border-bottom: 
+}
+
+.linedivision {
+	width: 20%;
+	color: #1C3067;
+	text-align: center;
+	margin: 5% auto;
+}
+
+
+
+p {
+	text-align: justify;
+	font-family: 'Neuton', serif;
+	line-height: 140%;
+	letter-spacing: .4px;
+	margin-top: 2%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 2%;
+}
+
+cite {
+	text-align: justify;
+	font-family: 'Neuton', serif;
+	line-height: 140%;
+	letter-spacing: .5px;
+	margin-top: 4%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 6%;
+
+}
+
+div {
+	height: 6%;
+}
+
+
+
+ul {
+	font-size: 1em;
+	text-align: center;
+}
+
+nav {
+  	font-family: 'Petit Formal Script', cursive;
+  	font-size: 1.2em;
+  	width: 100%;
+  	max-width: 900px;
+  	margin: 6% auto;
+}
+
+.ss-navbutton {
+  	color: #6D6E71;
+  	text-align: center;
+  	text-decoration: none;
+  	display: block;
+  	float: left;
+  	width: 25%;
+}
+
+
+.ss-navbutton:hover {
+  	background-color: #fff;
+  	color: #ED7C1E;
+}
+
+footer {
+	background-color: #fff
+	font-size: 1em;
+	font-family: 'Neuton', serif;
+	text-align: center;
+	letter-spacing: .3px;
+	width: 100%;
+	max-width: 80%;
+	margin: 3% auto;
+}
+div {
+	text-align: justify;
+	margin: 3% auto;
+	width: 80%;
+	max-width: 50%
+
+}
+
+#Email {
+	color: #ED7C1E;
+	text-align: center;
+}
+
+.Email {
+	text-align: center;
+}
+
+#fa {
+	margin: 7%;
+	vertical-align: middle;
+}
+
+.fa {
+	padding: 2%;
+	font-size: 3%;
+	width: 6%;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+	margin: 0 2%;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+	margin: 0 2%;
+}
+
+.fa-instagram {
+	background: #6D6E71;
+	color: white;
+	margin: 0 2%;
+}
+
+.fa:hover {
+  	opacity: 0.7;
+}
+
+main {
+	padding: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+	.ss-navbutton {
+		float: none;
+		width: auto;
+	}
+	.fa {
+		width: 7%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	body {
+		font-size: 13px;
+	}
+	.fa {
+		width: 8%;
+	}
+	#menubutton {
+		display: block;
+		color: #6D6E71;
+	}
+	
+	#navbuttons {
+		display: none;
+	}
+
+}
+

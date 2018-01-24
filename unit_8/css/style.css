@@ -36,6 +36,14 @@ h2 {
 	font-weight: lighter;
 }
 
+#menubutton {
+	display: none;
+}
+
+#mobilemenunav {
+	display: none;
+}
+
 img {
 	display: block;
 	margin: auto;
@@ -179,6 +187,14 @@ main {
 	}
 	.fa {
 		width: 8%;
+	}
+	#menubutton {
+		display: block;
+		color: ;
+	}
+	
+	#navbuttons {
+		display: none;
 	}
 
 }
