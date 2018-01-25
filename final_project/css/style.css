@@ -28,6 +28,7 @@ h1 {
 }
 
 h2 {
+	color: #6D6E71;
 	font-family: 'Neuton', serif;
 	font-size: 2.2em;
 	text-align: center; 
@@ -67,23 +68,10 @@ h4 {
 }
 
 
-
-.fa fa-bars {
-	display: none;
-}
-
 img {
 	display: block;
 	margin: auto;
 	width: 50%;
-	margin-top: 4%;
-	margin-bottom: 4%;
-}
-
-#profilepic {
-	display: block;
-	margin: auto;
-	width: 45%;
 	margin-top: 4%;
 	margin-bottom: 4%;
 }
@@ -95,6 +83,15 @@ img {
 	content: " ";
 	clear: both;
 	height: 0;
+}
+
+
+#profilepic {
+	display: block;
+	margin: auto;
+	width: 45%;
+	margin-top: 4%;
+	margin-bottom: 4%;
 }
 
 blockquote {
@@ -115,8 +112,6 @@ blockquote {
 	text-align: center;
 	margin: 5% auto;
 }
-
-
 
 p {
 	text-align: justify;
@@ -145,6 +140,12 @@ div {
 	height: 6%;
 }
 
+.recipes {
+	text-align: justify;
+	margin: 3% auto;
+	width: 80%;
+	max-width: 50%
+}
 
 
 ul {
@@ -153,6 +154,7 @@ ul {
 }
 
 nav {
+	background-color: #fff;
   	font-family: 'Petit Formal Script', cursive;
   	font-size: 1.2em;
   	width: 70%;
@@ -168,6 +170,12 @@ nav {
   	width: 25%;
 }
 
+.ss-navbutton div {
+	background-color: #fff;
+	max-width: 75%;
+	margin:0 auto;
+	padding: 2%;
+}
 
 .ss-navbutton:hover {
   	background-color: #fff;
@@ -175,7 +183,7 @@ nav {
 }
 
 footer {
-	background-color: #fff
+	background-color: #fff;
 	font-size: 1em;
 	font-family: 'Neuton', serif;
 	text-align: center;
@@ -183,13 +191,6 @@ footer {
 	width: 100%;
 	max-width: 80%;
 	margin: 3% auto;
-}
-div {
-	text-align: justify;
-	margin: 3% auto;
-	width: 80%;
-	max-width: 50%
-
 }
 
 #Email {
@@ -241,8 +242,6 @@ main {
 	padding: 2%;
 }
 
-
-	
 
 @media only screen and (max-width: 768px) {
 	body {
